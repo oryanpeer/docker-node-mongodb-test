@@ -1,0 +1,13 @@
+version: "2"
+services:
+  app:
+    container_name: panda-app
+    restart: always
+    image: opspython2
+    ports:
+      - "3000:3000"
+    links:
+      - db
+  db:
+    container_name: panda-db
+    image: opspython2-db
