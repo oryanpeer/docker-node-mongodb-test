@@ -16,7 +16,7 @@ Explanation of each tool can be found on the links below:
 * [pip](https://pip.pypa.io/en/stable/installing/)
 
 ## Optional Requirements
-* [virtualenv] - (https://docs.python-guide.org/dev/virtualenvs/)
+* [virtualenv](https://docs.python-guide.org/dev/virtualenvs/)
 
 ## Install clone the repository and install pip packages
 
