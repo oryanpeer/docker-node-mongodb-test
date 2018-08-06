@@ -1,7 +1,7 @@
 # Deploy Bigpanda containerized application,node application, only if healthcheck success
 Deploy docker container with python3.4 only if the application pass healthcheck
 ## Description
-This project is using Docker and Docker compose,download and download and extract tar.gz archive, link node application to MongoDB using docker compose.
+This project is using Docker and Docker compose, download and extract tar.gz archive, link node application to MongoDB using docker compose.
 
 Explanation of each tool can be found on the links below:
 * Docker (https://docs.docker.com/)
