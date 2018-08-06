@@ -41,6 +41,8 @@ def compose_up():
     try:
         print("Running docker-compose up")
         shell("/usr/local/bin/docker-compose up -d")
+        print("Waiting containers to be ready")
+        time.sleep(5)
     except Exception as e:
         print(e)
 
